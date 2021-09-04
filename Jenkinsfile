@@ -4,9 +4,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'echo "Oi Jenkins"'
+        sh 'echo "Oi Jenkins... nosso sábado está excelente"'
         sh '''
-          echo "Nossa primeira pipeline"
+          echo "Essa é nossa primeira pipeline"
           ls -la
         '''
       }
